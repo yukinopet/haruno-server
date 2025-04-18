@@ -2,7 +2,7 @@ function init() {
   const tableBody = document.querySelector("#workspaceTable tbody");
   const countdownDiv = document.getElementById("countdown");
 
-  const url = "https://raw.githubusercontent.com/yukinopet/yukino-server/storage/server.json";
+  const url = "https://raw.githubusercontent.com/yukinopet/haruno-server/storage/server.json";
 
   fetch(`${url}?t=${Date.now()}`, {
     'Cache-Control': 'no-cache, no-store, must-revalidate',
